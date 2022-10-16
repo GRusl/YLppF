@@ -1,7 +1,24 @@
 .main {
-    display: flex;
+    margin: auto 25%;
 }
 
-.logo {
-    width: 10%;
+.logo .logo-img {
+    width: 100%;
+}
+
+
+.main-content {
+    width: 100%;
+}
+
+td {
+    vertical-align: top; /* Вертикальное выравнивание в ячейках */
+    padding: 5px; /* Поля вокруг ячеек */
+}
+td#leftcol {
+    width: 200px; /* Ширина левой колонки */
+    background: #ccc; /* Цвет фона левой колонки */
+}
+td#rightcol {
+    background: #fc3; /* Цвет фона правой колонки */
 }

@@ -3,37 +3,46 @@
   <head>
     <meta charset="UTF-8">
 
-    <link href="style.css">
+    <link rel="stylesheet" href="style.css">
 
-    <title>Task</title>
+    <title>Task 1</title>
   </head>
   <body>
     <main class="main">
-      <a class="logo" href="/">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Yandex_logo_2021_Russian.svg/2560px-Yandex_logo_2021_Russian.svg.png" alt="logo">
-      </a>
-      <div class="main-content">
-        <form action="#">
-          <label>
-            <input type="search" placeholder="Найдётся всё">
-          </label>
-          <button type="submit">Найти</button>
-        </form>
-
-        <div>
-          <h1>Ошибка 404. Нет такой страницы</h1>
-          <p>Если вы считаете, что страницы нет по нашей вине, <a href="#">напишите нам</a>.</p>
-        </div>
-
-        <table>
-          <tbody>
-            <template id="row">
-              <tr><td><td>
-            </template>
-          </tbody>
-        </table>
 
 
+      <table class="main-content">
+        <tr>
+          <td id="leftcol">
+            <a class="logo" href="/">
+              <img class="logo-img"
+                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Yandex_logo_2021_Russian.svg/2560px-Yandex_logo_2021_Russian.svg.png" alt="logo">
+            </a>
+          </td>
+
+          <td id="rightcol">
+            <form action="#">
+              <label>
+                <input type="search" placeholder="Найдётся всё">
+              </label>
+              <button type="submit">Найти</button>
+            </form>
+
+            <div>
+              <h1>Ошибка 404. Нет такой страницы</h1>
+              <p>Если вы считаете, что страницы нет по нашей вине, <a href="#">напишите нам</a>.</p>
+            </div>
+
+            <table>
+              <tbody>
+              <template id="row">
+                <tr><td><td>
+              </template>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </table>
 
           <script>
               var data = [
@@ -59,10 +68,6 @@
               }
           </script>
 
-
-
-        </div>
-      </div>
     </main>
 
     <footer class="footer">
