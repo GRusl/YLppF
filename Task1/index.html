@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Task</title>
+  </head>
+  <body>
+    <main>
+      <a href="/">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Yandex_logo_2021_Russian.svg/2560px-Yandex_logo_2021_Russian.svg.png" alt="logo">
+      </a>
+      <div>
+        <form>
+          <label>
+            <input>
+          </label>>
+          <button type="submit">Найти</button>
+        </form>
+
+        <div>
+          <h1>Ошибка 404. Нет такой страницы</h1>
+          <p>Если вы считаете, что страницы нет по нашей вине, <a href="#">напишите нам</a>.</p>
+        </div>
+
+        <div>
+
+
+          <table>
+            <tbody>
+              <template id="row">
+                <tr><td><td>
+              </template>
+            </tbody>
+          </table>
+
+          <script>
+              var data = [
+                  {img: 'https://github.com/favicon.ico', title: 'Маркет1', description: 'сммартфоны Huawei', link: '#'},
+                  {img: 'https://github.com/favicon.ico', title: 'Маркет2', description: 'сммартфоны Huawei', link: '#'},
+                  {img: 'https://github.com/favicon.ico', title: 'Маркет3', description: 'сммартфоны Huawei', link: '#'},
+                  {img: 'https://github.com/favicon.ico', title: 'Маркет4', description: 'сммартфоны Huawei', link: '#'},
+                  {img: 'https://github.com/favicon.ico', title: 'Маркет5', description: 'сммартфоны Huawei', link: '#'},
+                  {img: 'https://github.com/favicon.ico', title: 'Маркет6', description: 'сммартфоны Huawei', link: '#'},
+              ];
+
+              var template = document.querySelector('#row');
+              for (var i = 0; i < data.length; i += 2)
+              {
+                  var clone = template.content.cloneNode(true);
+                  var cells = clone.querySelectorAll('td');
+
+                  for (var k = i; k < i + 2; k++)
+                  {
+                      var mohs = data[k];
+                      cells[k - i].textContent = mohs.title;
+                  }
+                  template.parentNode.appendChild(clone);
+              }
+          </script>
+
+
+
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <nav>
+        <a class="nav-link" href="#">Компания</a>
+        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#">©Яндекс</a>
+      </nav>
+    </footer>
+  </body>
+</html>
