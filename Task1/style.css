@@ -14,18 +14,21 @@
 }
 
 .logo {
-    width: 100px;
+    width: 90px;
+    margin-right: 10px;
 }
 
-.logo .logo-img {
-    width: 100%;
+.logo-img {
+    width: 100%;  /* there is no way without it */
 }
 
-.content {
+.upper-content {
     display: flex;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
-.content form {
+.search-form {
     width: 100%;
     position: relative;
     background: rgb(255, 201, 61);
@@ -34,26 +37,24 @@
     display: flex;
 }
 
-.content form label {
-    width: 100%;
+.search-label {
+    width: 100%;  /* there is no way without it */
 }
 
-.content form label input {
+.search {
     font-size: 1rem;
     line-height: 2rem;
     padding: 0 0 0 10px;
     border-radius: 8px 5px 5px 8px;
-    width: 100%;
+    width: 100%;  /* there is no way without it */
 }
 
-.content form button {
+.search-btn {
     width: 70px;
     background: none;
     font-size: 1rem;
     line-height: 2.1rem;
     padding: 0 10px;
-
-    border-color: brown;
 }
 
 .main-content {
@@ -64,6 +65,18 @@
 .services {
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
+}
+
+.services-list-item {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.services-list-item-img {
+    width: 16px;
+    margin-right: 5px;
 }
 
 .footer {
