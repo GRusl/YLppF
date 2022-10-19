@@ -2,13 +2,35 @@
     padding: 0;
     margin: 0;
     border: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
-.main {
-    margin: auto 25%;
 
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    text-decoration: none;
+    color: #008cff;
+}
+
+.main {
+    height: 100%;
+    margin: auto 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-block {
+    width: 100%;  /* there is no way without it */
     display: flex;
     flex-direction: column;
 }
@@ -79,6 +101,26 @@
     margin-right: 5px;
 }
 
+.nav-link {
+    color: #5d5d5d;
+    margin-right: 20px;
+}
+
 .footer {
     margin: auto 25%;
+    height: 30px;
+}
+
+@media (max-width: 1300px) {
+    .main,
+    .footer {
+        margin: auto 10%;
+    }
+}
+
+@media (max-width: 900px) {
+    .main,
+    .footer {
+        margin: auto 20px;
+    }
 }
