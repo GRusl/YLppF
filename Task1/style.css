@@ -91,6 +91,10 @@
     margin-top: 30px;
 }
 
+.services-list {
+    line-height: 2;
+}
+
 .services-list-item {
     list-style-type: none;
     display: flex;
@@ -103,7 +107,7 @@
 }
 
 .nav-link {
-    color: #5d5d5d;
+    color: #858585;
     margin-right: 20px;
 }
 
