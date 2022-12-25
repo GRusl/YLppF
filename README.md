@@ -7,7 +7,7 @@ YLppF HW 2022/2023
 1. Contest - 110/125
 2. [Project](https://github.com/GRusl/F_YLpp) - 110/110
 
-##Lessons:
+## Lessons
 1. [Task1](https://github.com/GRusl/YLppF/tree/master/Task1) - ✅
 2. [shri_simple_template](https://github.com/GRusl/shri_simple_template) - ✅
 3. ↓ ↓ ↓
