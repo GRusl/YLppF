@@ -14,8 +14,8 @@ YLppF HW 2022/2023
 3. Основы React: ↓ ↓ ↓
 4. Построение React-приложений: [YLppF_React](https://github.com/GRusl/YLppF_React) - ✅
 5. Автоматическое тестирование (модульное и интеграционное): [testing-homework](https://github.com/GRusl/testing-homework) - ✅
-6. Продвинутый JavaScript - ✅
-7. Асинхронность - ✅
+6. Продвинутый JavaScript: [YLppF/Task6.js](https://github.com/GRusl/YLppF/blob/master/Task6.js) - ✅
+7. Асинхронность: [YLppF/Task7.js](https://github.com/GRusl/YLppF/blob/master/Task7.js) - ✅
 8. Performance - [shri2022-performance](https://github.com/GRusl/shri2022-performance) - ✅ (336.72)
 
 ## 🛡 Project
